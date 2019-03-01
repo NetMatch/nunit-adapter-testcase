@@ -15,7 +15,7 @@ are correctly reported as having run in such a case. They are not, when starting
 2. Right-click the 'Tests' node from the VS Test Explorer and choose to run *only* the tests inside that test fixture.
    * BUG : None of the test cases show up as having run.  
            The VS Output panel mentions a warning in the Tests category:  
-           ``No test matches the given testcase filter `FullyQualifiedName=Testcase.Tests.Tests.Concat|FullyQualifiedName=Testcase.Tests.Tests.Add\` ``
+           ``No test matches the given testcase filter `FullyQualifiedName=Testcase.Tests.Tests.Concat|FullyQualifiedName=Testcase.Tests.Tests.Add` ``
    * BUG : Original test method names remain present as not run.
 
 3. Right-click the 'Add' node from the VS Test Explorer and choose to run only that test.
